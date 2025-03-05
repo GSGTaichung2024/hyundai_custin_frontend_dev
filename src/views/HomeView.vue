@@ -382,10 +382,9 @@ export default {
         
         if (storyWallUpArrow) {
           storyWallUpArrow.addEventListener('click', () => {
-            console.log(123)
             if (storyWall) {
               storyWall.scrollBy({
-                top: -100,
+                top: -200,
                 behavior: 'smooth'
               });
             }
@@ -396,7 +395,7 @@ export default {
           storyWallMobileUpArrow.addEventListener('click', () => {
             if (storyWallMobile) {
               storyWallMobile.scrollBy({
-                top: -100,
+                top: -200,
                 behavior:'smooth'
               });
             }
@@ -407,7 +406,7 @@ export default {
           storyWallDownArrow.addEventListener('click', () => {
             if (storyWall) {
               storyWall.scrollBy({
-                top: 100,
+                top: 200,
                 behavior: 'smooth'
               });
             }
@@ -418,7 +417,7 @@ export default {
           storyWallMobileArrow.addEventListener('click', () => {
             if (storyWallMobile) {
               storyWallMobile.scrollBy({
-                top: 100,
+                top: 200,
                 behavior:'smooth'
               });
             }

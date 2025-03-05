@@ -796,10 +796,11 @@ main {
     #story_carousel_mobile {
         height: 1024px;
         width: 100%;
-        background-image: url('../assets/img/story_bg_mobile.webp');
-        background-size: contain;
-        background-position: top center;
-        background-repeat: no-repeat;
+        // background-image: url('../assets/img/story_bg_mobile.webp');
+        // background-size: contain;
+        // background-position: top center;
+        // background-repeat: no-repeat;
+        background-color: #fff;
 
         @media (max-width: 991px) {
             height: 900px;
